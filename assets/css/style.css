@@ -162,28 +162,16 @@ BUTTONS STYLE
   box-shadow: none !important;
 }
 
-.btn-main {
-  background: #20ad96;
+.btn-main, .btn-main-2 {
+  background: #ca1818;
   color: #fff;
-  border-color: #20ad96;
+  border-color: #ad2020;
 }
 
-.btn-main:hover {
+.btn-main:hover, .btn-main-2:hover {
   color: #fff;
-  border-color: #385777;
-  background: #385777;
-}
-
-.btn-main-2 {
-  border-color: #385777;
-  color: #fff;
-  background: #385777;
-}
-
-.btn-main-2:hover {
-  background: #20ad96;
-  color: #fff;
-  border-color: #20ad96;
+  border-color: #751414;
+  background: #ad2020;
 }
 
 .btn-tp {
@@ -491,7 +479,7 @@ Header TopBar
 }
 
 .navbar-toggler {
-  background: #20ad96;
+  background: #ca1818;
   border-radius: 0px;
 }
 
@@ -582,7 +570,7 @@ Header TopBar
 ================*/
 .banner {
   padding: 140px 0px;
-  background: url("../images/banner/bg-2.jpg") center center no-repeat;
+  background: url("../images/banner/main-bg.jpg") center center no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -976,9 +964,8 @@ Course Block
 .course-img .course-price {
   position: absolute;
   content: "";
-  background: #20ad96;
+  background: #ad2020;
   font-weight: 700;
-  color: #385777;
   color: #fff;
   text-align: center;
   font-size: 26px;
@@ -994,7 +981,6 @@ Course Block
   content: "";
   background: #20ad96;
   font-weight: 700;
-  color: #385777;
   color: #fff;
   top: 0px;
   right: 20px;
@@ -1331,7 +1317,7 @@ VIDEO SECTION
   top: 50%;
   -webkit-transform: translateY(-50%) translateX(-50%);
   transform: translateY(-50%) translateX(-50%);
-  background-color: #20ad96;
+  background-color: #ca1818;
   border-radius: 100%;
   color: #fff;
 }
@@ -1361,7 +1347,8 @@ VIDEO SECTION
 }
 
 .video-icon:hover {
-  background-color: #20ad96;
+  background-color: #ad2020;
+  color: white;
 }
 
 @-webkit-keyframes ripple {
@@ -2069,7 +2056,7 @@ Course Sidebar
 .course-sidebar .course-widget .buy-btn button {
   width: 100%;
   display: block;
-  background: #20ad96;
+  background: #ca1818;
   padding: 14px 30px;
 }
 
@@ -3986,7 +3973,7 @@ Recent post widget
   display: inline-block;
   text-align: center;
   height: 50px;
-  background: #20ad96;
+  background: #ca1818;
   color: #fff;
   width: 50px;
   border-radius: 100%;
