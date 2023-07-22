@@ -481,6 +481,7 @@ Header TopBar
 .navbar-toggler {
   background: #ca1818;
   border-radius: 0px;
+  padding: 0.5rem 0.75rem;
 }
 
 .navbar-toggler-icon {
