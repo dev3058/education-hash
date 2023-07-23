@@ -146,6 +146,10 @@ https://github.com/imakewebthings/waypoints/blob/master/licenses.txt
     return document.documentElement.clientWidth
   }
 
+  Waypoint.prototype.getOption = function(optionName) {
+    return this.options[optionName];
+  };
+
   Waypoint.adapters = []
 
   Waypoint.defaults = {
@@ -658,5 +662,6 @@ https://github.com/imakewebthings/waypoints/blob/master/licenses.txt
   if (window.Zepto) {
     window.Zepto.fn.waypoint = createExtension(window.Zepto)
   }
+  
 }())
 ;
